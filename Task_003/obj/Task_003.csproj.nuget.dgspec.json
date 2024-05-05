@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_001\\Task_001.csproj": {}
+    "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_003\\Task_003.csproj": {}
   },
   "projects": {
-    "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_001\\Task_001.csproj": {
+    "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_003\\Task_003.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_001\\Task_001.csproj",
-        "projectName": "Task_001",
-        "projectPath": "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_001\\Task_001.csproj",
+        "projectUniqueName": "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_003\\Task_003.csproj",
+        "projectName": "Task_003",
+        "projectPath": "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_003\\Task_003.csproj",
         "packagesPath": "C:\\Users\\popad\\.nuget\\packages\\",
-        "outputPath": "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_001\\obj\\",
+        "outputPath": "D:\\GameDev\\C#\\Урок7\\Tasks\\Task_003\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\popad\\AppData\\Roaming\\NuGet\\NuGet.Config"

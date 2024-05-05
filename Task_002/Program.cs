@@ -2,9 +2,10 @@
 
 void main ()
 {
-    int n = 1;
-    int m = 1;
-    System.Console.WriteLine(calculateAkkerman(n, m));
+    int n = 3;
+    int m = 4;
+    m  = calculateAkkerman(n, m);
+    System.Console.WriteLine(m);
 }
 
 int calculateAkkerman(int n, int m) 
@@ -13,17 +14,17 @@ int calculateAkkerman(int n, int m)
     {
         return  m += 1;
         
-    } else if (m == 0)
+    } 
+    if (m == 0)
     {
-        calculateAkkerman(n - 1, 1);  
+        return calculateAkkerman(n - 1, 1);  
 
-    } else if (m != 0 && n != 0)
-    {
-        calculateAkkerman(n - 1, calculateAkkerman(n, m - 1));
     }
-
-    return(m);
-
+    if (m != 0 && n != 0)
+    {
+        return calculateAkkerman(n - 1, calculateAkkerman(n, m - 1));
+    }
+    return m;
 }
 
 main();
